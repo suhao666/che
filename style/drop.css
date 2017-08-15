@@ -1,0 +1,28 @@
+#nav li ul {
+  display: none;
+  position: absolute;
+  top: 36px;
+  width: 200px;
+  background: #7CBB00;
+  border: solid #7CBB00;
+  z-index:999;
+  }
+#nav li:hover ul {
+  display: block;
+  }
+#nav li ul li {
+  float: none;
+  height:40px; border-top:solid 1px #86C014; background:url();
+  }
+#nav li ul li a {
+  display: inline-block;
+  height:40px; line-height:40px; text-align:left; padding-left:10px; color:#fff;
+  }
+#nav li ul li a {display: block;}
+#nav li ul li a:hover {
+  background: #94C72E;
+  color: #fff;
+  }
+#nav li ul li img{ margin-top:3px}
+.nav_en{ font-family:Arial}
+.nav_en a{ letter-spacing:0}
